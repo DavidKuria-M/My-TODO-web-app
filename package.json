@@ -1,0 +1,37 @@
+{
+  "name": "my-todo-web-app",
+  "version": "1.0.0",
+  "description": "A responsive Todo List web application built with HTML, CSS, and JavaScript. Organize tasks into projects, set due dates and priorities, manage task details, and track completion. Built as part of The Odin Project JavaScript curriculum, focusing on object-oriented programming, DOM manipulation, and modular JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "watch": "webpack --watch",
+    "start": "webpack server --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidKuria-M/My-TODO-web-app.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/DavidKuria-M/My-TODO-web-app/issues"
+  },
+  "homepage": "https://github.com/DavidKuria-M/My-TODO-web-app#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "copy-webpack-plugin": "^14.0.0",
+    "css-loader": "^7.1.5",
+    "eslint": "^9.39.5",
+    "globals": "^17.14.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.8",
+    "prettier": "^3.9.10",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.112.2",
+    "webpack-cli": "^7.2.3",
+    "webpack-dev-server": "^6.1.0"
+  }
+}
